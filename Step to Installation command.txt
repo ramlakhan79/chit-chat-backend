@@ -1,0 +1,105 @@
+1. Create One Folder with name of Folder is : (Folder Name ) "Minor Project"
+
+2. Open the terminal then type : npm init Press Enter 
+
+3. package name: (minor-project) "chit-chat" Press Enter
+version: (1.0.0) Press Enter                                                                                                          
+description: Press Enter                                                                                                              
+entry point: (index.js) server.js Press Enter
+test command: Press Enter                                                                                                              
+git repository: Press Enter                                                                                                            
+keywords: Press Enter                                                                                                                  
+author: (Write your name) Ramlakhan Lodhi Press Enter                                                                                                    
+license: (ISC) Press Enter                                                                                                            
+About to write to D:\Minor Project\package.json:
+
+{
+  "name": "chit-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramlakhan Lodhi",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) Press Enter
+
+
+4. In Main Folder (Minor Project):  npm i express Press Enter
+
+5. add this script in package.json file: 
+
+  scripts": {
+    "start": "node backend/server.js"
+  },
+
+6. In Main Folder (Minor Project): npm i dotenv Press Enter
+
+7. In Main Folder (Minor Project): npm i nodemon Press Enter
+
+8. Change the script start: "start": from "node backend/server.js" to "start": "nodemon backend/server.js"
+
+9.  In Frontend Folder : npx create-react-app frontend Press Enter
+
+10. open new terminal
+
+    change the directory : cd frontend
+
+    then type : npm start Press Enter
+
+11. In Frontend Folder:  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion Press Enter
+
+12. add the  proxy at above the dependencies in frontend package.json file
+	
+   "proxy": "http://127.0.0.1:5000",
+
+13. In Frontend Folder: npm i react-router-dom@5 Press Enter
+
+14. In Main Folder open new terminal: npm i mongoose Press Enter
+
+15. add .env file in (Main Folder) minor project folder 
+    [
+	where , in this file 
+
+	PORT = ( Write your port ) ex: 4000
+	login in mongodb
+	MONGO_URI=(Your mongo url ) ex: mongodb+srv://<username>:<password>@cluster0.6cyhstq.mongodb.net/?retryWrites=true&w=majority
+
+	JWT_SECRET= (You key )
+
+    ]
+
+16. In Main Folder : npm i colors Press Enter
+
+17. In Main Folder: npm i jsonwebtoken Press Enter
+
+18. In Maib Folder: npm i express-async-handler Press Enter
+
+19. In Main Folder: npm i bcryptjs Press Enter
+
+20. In Forntend:  npm i @chakra-ui/icons Press Enter
+
+21. In Frontend: npm i react-scrollable-feed Press Enter
+
+23. In Main Folder: npm i socket.io Press Enter
+
+23. In Forntend : npm i socket.io-client Press Enter
+
+24. In Frontend: npm i axios Press Enter
+
+25. Before add the file. delete all file from src folder then add the all frontend file into the src folder 
+
+26. replace  the html file  which is present in public folder
+
+
+
+
+
+
+
+
+
